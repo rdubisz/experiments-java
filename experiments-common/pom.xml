@@ -12,7 +12,7 @@
 
   <artifactId>experiments-common</artifactId>
   <packaging>jar</packaging>
-  <name>experiments : common</name>
+  <name>experiments-java : common</name>
   <description>Programming experiments common library</description>
 
   <dependencies>
@@ -30,6 +30,10 @@
       <groupId>org.junit.jupiter</groupId>
       <artifactId>junit-jupiter</artifactId>
       <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.junit.platform</groupId>
+      <artifactId>junit-platform-launcher</artifactId>
     </dependency>
   </dependencies>
 

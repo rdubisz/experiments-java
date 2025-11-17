@@ -11,7 +11,7 @@
   </parent>
 
   <artifactId>experiments-java-21</artifactId>
-  <name>experiments : java 21</name>
+  <name>experiments-java : 21</name>
   <description>Programming experiments for Java 18-21 features</description>
 
   <dependencies>
@@ -38,6 +38,10 @@
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-resources-plugin</artifactId>
+      </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-surefire-plugin</artifactId>
       </plugin>
     </plugins>
   </build>
